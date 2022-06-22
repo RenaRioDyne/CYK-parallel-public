@@ -1,0 +1,60 @@
+test #1) speedup test for various lengths
+test length: 500
+sequential program average:       114951174 cycles
+1-thread program average  :       114297225 cycles ( 1.00 speedup)
+2-thread program average  :        58831683 cycles ( 2.20 speedup)
+3-thread program average  :        48730587 cycles ( 2.75 speedup)
+4-thread program average  :        34626649 cycles ( 3.67 speedup)
+5-thread program average  :        29238857 cycles ( 5.50 speedup)
+6-thread program average  :        32192786 cycles ( 3.67 speedup)
+7-thread program average  :        93628252 cycles ( 1.22 speedup)
+8-thread program average  :        85573037 cycles ( 1.38 speedup)
+test length: 1000
+sequential program average:       876369120 cycles
+1-thread program average  :       876988426 cycles ( 1.00 speedup)
+2-thread program average  :       477914262 cycles ( 1.85 speedup)
+3-thread program average  :       396589265 cycles ( 2.23 speedup)
+4-thread program average  :       327207953 cycles ( 2.72 speedup)
+5-thread program average  :       300321910 cycles ( 2.90 speedup)
+6-thread program average  :       262892818 cycles ( 3.35 speedup)
+7-thread program average  :       450953617 cycles ( 1.93 speedup)
+8-thread program average  :       428762360 cycles ( 2.07 speedup)
+test length: 2000
+sequential program average:      6875086261 cycles
+1-thread program average  :      6920556997 cycles ( 0.99 speedup)
+2-thread program average  :      3474914303 cycles ( 1.98 speedup)
+3-thread program average  :      2592837541 cycles ( 2.65 speedup)
+4-thread program average  :      2206151166 cycles ( 3.12 speedup)
+5-thread program average  :      2014545149 cycles ( 3.42 speedup)
+6-thread program average  :      1816803244 cycles ( 3.80 speedup)
+7-thread program average  :      2324249279 cycles ( 2.96 speedup)
+8-thread program average  :      2481493791 cycles ( 2.77 speedup)
+test length: 3000
+sequential program average:     23045536150 cycles
+1-thread program average  :     23136190613 cycles ( 1.00 speedup)
+2-thread program average  :     11510284519 cycles ( 2.00 speedup)
+3-thread program average  :      8598514093 cycles ( 2.68 speedup)
+4-thread program average  :      7261103446 cycles ( 3.17 speedup)
+5-thread program average  :      6631610126 cycles ( 3.48 speedup)
+6-thread program average  :      6052230718 cycles ( 3.81 speedup)
+7-thread program average  :      6619178836 cycles ( 3.49 speedup)
+8-thread program average  :      8121145092 cycles ( 2.84 speedup)
+
+test #2) geometric: length vs. work? length = 2000
+sequential program average:      6875086261 cycles
+1-thread work-geometric  :      6920556997 cycles ( 0.99 speedup)
+1-thread length-geometric:      6892235816 cycles ( 1.00 speedup)
+2-thread work-geometric  :      3474914303 cycles ( 1.98 speedup)
+2-thread length-geometric:      6811410733 cycles ( 1.01 speedup)
+3-thread work-geometric  :      2592837541 cycles ( 2.65 speedup)
+3-thread length-geometric:      7483381472 cycles ( 0.92 speedup)
+4-thread work-geometric  :      2206151166 cycles ( 3.12 speedup)
+4-thread length-geometric:      8015080949 cycles ( 0.86 speedup)
+5-thread work-geometric  :      2014545149 cycles ( 3.42 speedup)
+5-thread length-geometric:      9322117332 cycles ( 0.74 speedup)
+6-thread work-geometric  :      1816803244 cycles ( 3.80 speedup)
+6-thread length-geometric:     10222405299 cycles ( 0.67 speedup)
+7-thread work-geometric  :      2324249279 cycles ( 2.96 speedup)
+7-thread length-geometric:     11788982625 cycles ( 0.58 speedup)
+8-thread work-geometric  :      2481493791 cycles ( 2.77 speedup)
+8-thread length-geometric:     18721470652 cycles ( 0.37 speedup)
